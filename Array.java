@@ -45,10 +45,9 @@ public class Array {
                 value  = list[i];
         }
 
-        if(value >=0)
+      
             return value;
-        else
-            return  value;
+        
 
     }
 
