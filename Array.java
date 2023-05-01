@@ -16,8 +16,8 @@ public class Array {
         System.out.println("Max Value of array2[2, 4,554,5,58,51,3] is : "+maxValue(array2));
         System.out.println("Max Value of array3[-52, -84, -19, -2,-25,-10,-45 ] is : "+maxValue(array3));
         System.out.println("--------------------------------------------------");
-        int arrOfSum[]={1,2,3,4,5,6,7,8,9,1};
-        System.out.println("AVG : "+sumOfArray(arrOfSum));
+        int arrOfAvg[]={1,2,3,4,5,6,7,8,9,1};
+        System.out.println("AVG : "+avgOfArray(arrOfAvg));
         System.out.println("--------------------------------------------------");
         int[] arraySorted = {45, -2, 47, 10, -35};
         int[] arraySorted1 = {-45, -2, -47, -10, -35};
@@ -62,9 +62,9 @@ public class Array {
     }
 
  
-    public static double sumOfArray(int[]arr){
+    public static double avgOfArray(int[]arr){
         int i=0;
-        int sum =0;
+        double sum =0;
         double avg=0;
         for ( ; i <= arr.length ; i++)
         {
