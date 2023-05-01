@@ -52,18 +52,16 @@ public class Array {
     }
 
     public static int maxValue(int[] arr) {
-        Arrays.sort(arr);
-        for (int i = arr.length - 1; i >= 0; i--) {
-            if (max (arr[i])) {
-                return arr[i];
+        int max = arr[0];
+        for (int i = 0 ; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max=arr[i];
             }
         }
-        return 0;
+        return max;
     }
 
-    private static boolean max (int i) {
-        return i > 0 || i<0;
-    }
+ 
     public static double sumOfArray(int[]arr){
         int i=0;
         int sum =0;
