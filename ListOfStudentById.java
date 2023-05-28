@@ -8,7 +8,7 @@ public class ListOfStudentById extends Exception {
         List<String> students = new ArrayList<>();
         for (String id : studentId) {
             if (id.equals("122")) {
-                throw new ListOfStudentById("Student with ID " + id + " not found.");
+                throw new ListOfStudentById("Student with ID " + id + " not access.");
             }
             students.add("Student " + id);
         }
