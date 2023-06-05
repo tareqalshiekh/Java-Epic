@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LessMoreEqualF {
     public static void main(String[] args) {
-        int[] numbers = {1, 6, 3, 8, 2, 3,44, 7, 99, 5};
+        int[] numbers = {12, 161,19, 3,5,2, 25,8, 1,2, 3,44, 7, 99, 5};
         List<Integer> lessTh5 = new ArrayList<>();
         List<Integer> equalTo5 = new ArrayList<>();
         List<Integer> greaterTh5 = new ArrayList<>();
